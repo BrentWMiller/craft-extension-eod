@@ -1,5 +1,5 @@
 # craftx-eod
-Generate end of day templates on the fly for Craft
+Generate end of day templates on the fly for Craft Docs.
 
 Just download the `eod.craftx` file and install it.
 

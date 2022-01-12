@@ -1,0 +1,11 @@
+{
+  "name": "eod",
+  "version": "1.0.0",
+  "description": "Creates an end of day template on the fly",
+  "main": "index.js",
+  "scripts": {
+    "build": "zip -vr eod.craftx icon.png index.html manifest.json"
+  },
+  "author": "Brent Miller",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "iambrent.eod",
+  "name": "End of Day",
+  "fileName": "end-of-day",
+  "author": "Brent Miller",
+  "author-email": "brentwmiller93@gmail.com",
+  "description" : "Creates an end of day template on the fly",
+  "api": "0.1.0",
+  "main": "index.html"
+}

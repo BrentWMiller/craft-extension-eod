@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button id="btn-execute">Add new EOD</button>
+    <script>
+      const button = document.getElementById("btn-execute")
+
+      button.addEventListener("click", async () => {
+        const markdown = `
+          **Project Name**
+          💪 – Notable thing to share
+          🚀 – Progress of current milestone
+          ⚠️ – Blockers for next milestone
+        `
+        const markdownBlocks = await craft.markdown.markdownToCraftBlocks(markdown);
+        await craft.dataApi.addBlocks(markdownBlocks);
+      })
+    </script>
+  </body>
+</html>
